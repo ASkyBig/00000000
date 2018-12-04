@@ -1,6 +1,7 @@
-# 00000000
+# {{name}}
 活动模板
 这是一个活动模板哦
 
-> author:{{author}}
+> author: {{author}}
+
 > description:{{description}}

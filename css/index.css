@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'YuewenFont-Regular';
-  src: url('/ecy_activity/2018/00000000/fonts/yuewen/YuewenFont-Regular.woff2') format('woff2'),
-  url('/ecy_activity/2018/00000000/fonts/yuewen/YuewenFont-Regular.woff') format('woff'),
-  url('/ecy_activity/2018/00000000/fonts/yuewen/YuewenFont-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body{
-  background: url(/ecy_activity/2018/00000000/images/ecy_icon.png) center center repeat; 
+  background: url(/test/2018/00000000/images/icon.png) center center repeat; 
 }

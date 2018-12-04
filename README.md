@@ -1,7 +1,5 @@
-# {{name}}
-活动模板
-这是一个活动模板哦
+# 活动id：{{name}}
 
 > author: {{author}}
 
-> description:{{description}}
+> description: {{description}}

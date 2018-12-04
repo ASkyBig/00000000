@@ -2,41 +2,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <%
-    data.actConf = {
-      "titleInfo": [{
-        "title": "",
-        "desc": "",
-        "keywords": "二次元" 
-      }]
-    };
-    data.showShare = false;
-    const { platform } = data;
-    const { platforms: platformConfig } = YUE.acConfig;
-    const isInApp = platform === platformConfig.iosApp || platform === platformConfig.androidApp;
-    data.isInApp = isInApp;
-  %>
-  <% include ../../common/header.html %>
-  <link rel="stylesheet" data-ignore="true" href="<%=YUE.staticConf.staticPath %>/2018/00000000/css/index.css" />
+  
+  <link rel="stylesheet" data-ignore="true" href="test/2018/00000000/css/index.css" />
 </head>
 <body>
-    <% include ./Components/Banner.html %>
 </body>
-<% include ../../common/footer.html %>
-<!-- <script type="text/javascript" src="https://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0"></script>
 <script>
-    // 初始化vConsole
-    window.vConsole = new window.VConsole();
-</script>-->
-<script>
-  var pageData = <%- JSON.stringify(data) -%>;
-  var YUE = <%- JSON.stringify(YUE) -%>;
-  LBF.config({
-    "paths" : {
-      alias: {/* __lbf_config_alias__ */},
-      "ecy_activity" : "<%= YUE.staticConf.staticPath %>",
-    }
-  });
-  LBF.use(['ecy_activity/2018/00000000/js/index.js']);
+ test
 </script>
 </html>

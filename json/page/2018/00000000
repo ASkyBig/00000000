@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "activityId": 00000000,
+        "activityStatus": 0,
+        "platform": 1,
+        "appInfo": {
+            "versionStr": null,
+            "versionNum": null,
+            "platform": null,
+            "webview": 26
+        },
+        "isLogin": 1,
+        "userInfo": {
+            "isLogin": true,
+            "avatar": "http://183.57.50.47/acg_uh/0/1/100",
+            "nickName": "小手机",
+            "userId": 803100144366,
+            "ywGuid": "803100144366"
+        },
+        "business": {
+            
+        },
+        "timestamp": "1541175758"
+    }   
+}
